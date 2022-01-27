@@ -3,7 +3,7 @@
 int main() {
   char c1 = 'a';
   char c2 = 'b';
-  char* ptr = NULL;
+  char* ptr = NULL; // best practice is to initialize to NULL
   ptr = &c1;
   if (ptr != NULL) {
     c2 = *ptr;
