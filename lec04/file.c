@@ -11,7 +11,7 @@ int main() {
     exit(1);
   }
 
-  outfile = fopen("/home/alinen/output.txt", "w");
+  outfile = fopen("/Users/linhtran/Desktop/Spring/Systems Prog./class-examples/lec04/output.txt", "w");
   if (outfile == NULL) {
     printf("Error: unable to open outfile\n");
     exit(1);
