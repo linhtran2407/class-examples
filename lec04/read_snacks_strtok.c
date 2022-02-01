@@ -19,8 +19,8 @@ int main() {
     char* token = strtok(buffer, ",");
     if (token != NULL) strcpy(name, token);
 
-    token = strtok(NULL, ","); // use same buffer as before
-    if (token != NULL) cost = atof(token);
+    token = strtok(NULL, ","); // use same buffer as before, get the NEXT token
+    if (token != NULL) cost = atof(token); // atof: string to float
 
     printf("Read data: %s $%.2f\n", name, cost);    
   }
