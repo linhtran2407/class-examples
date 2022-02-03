@@ -14,6 +14,7 @@ int main() {
   int nrows = 50;
   int ncols = 100;
 
+  // flat matrix - act like a 1D array
   int* matrix = malloc(sizeof(int) * nrows * ncols);
   init_matrix(matrix, nrows, ncols);
 
