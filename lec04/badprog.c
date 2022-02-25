@@ -22,7 +22,7 @@ int findAndReturnMax(int *array1, int len, int max) {
         return -1;
     }
     max = array1[0];
-    for (i=1; i <= len; i++) {
+    for (i=1; i < len; i++) {
         if (max < array1[i]) {
             max = array1[i];
         }
